@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(44, 44, 44);
+  color: rgb(190, 190, 40);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.background {
+  background-color: whitesmoke;
+}
+.box-1 {
+  padding: 0px 5px;
+}
+.box-1 p {
+  margin: 0.3em;
+  width: 85%;
+}
+.container {
+  margin: auto;
+  width: 85%;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+.button {
+  color: yellow;
+  padding: 20px;
+  border: none;
+}
+.button:hover {
+  color: red;
+}
+.p1 {
+  font-style: italic;
+  font-size: 18px;
+  color: rgb(14, 179, 201);
+}
+main {
+  border: rgb(214, 195, 22) solid;
+}
+.links {
+  border: 3px rgb(214, 195, 22) solid;
+}
+.links h2 {
+  text-align: center;
+}
+.links ul {
+  padding: 0;
+  list-style: none;
+}
+.links li {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+}
+nav {
+  margin-bottom: 20px;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 400px) {
+  .container h1 {
+    color: cornflowerblue;
+    font-family: monospace;
+    font-size: 2.2em;
+  }
+  .container h2 {
+    color: cornflowerblue;
+    font: 1.9em monospace bolder;
+  }
+  .container p {
+    color: rgb(24, 211, 211);
+  }
+  .container li {
+    color: rgb(9, 206, 130);
+    list-style: none;
+  }
+  .links a {
+    color: rgb(94, 192, 224);
+  }
+  .links a:hover {
+    color: tomato;
+  }
+  .button {
+    color: rgb(70, 61, 62);
+    background: rgb(56, 223, 84);
+  }
+  .button:hover {
+    background: transparent;
+  }
+  .links h2 {
+    color: rgb(45, 196, 113);
+  }
+  main {
+    border: none;
+  }
+  .links {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(208, 228, 235);
+  }
+  .container h1 {
+    color: brown;
+  }
+  .container h2 {
+    color: brown;
+  }
+  .container {
+    font-size: 0.9em;
+    color: black;
+  }
+  .links {
+    color: brown;
+  }
+  .links a {
+    color: black;
+  }
+  .links a:hover {
+    color: indianred;
+  }
+  .p1 {
+    color: indianred;
+  }
+  main {
+    border: none;
+    line-height: 1.5em;
+  }
+  .links {
+    border: none;
+  }
+
+  .button {
+    color: indianred;
+    padding: 10px;
+  }
+  .button:hover {
+    color: blue;
+  }
+}
+
+/*Form*/
+
+.myform label{
+  display: block;
+
+}
+.myform .form{
+  padding-bottom: 15px;
+
+}
+.myform input[type="text"], .myformtextarea{
+  padding: 8px;
+}
+
+.myform input[type="submit"]{
+  background-color: yellow;
+  color:black;
+  padding:10px 15px;
+  border: none;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="my-form">
+      <form class="form" name="contact" method="POST" data-netlify="true">
+        <h2>Form</h2>
+        <label for="fname">Name:</label><br />
+        <input type="text" name="fname" /><br />
+        <label for="email">Email:</label><br />
+        <input type="text" name="lname" /><br />
+        <label for="tel">Tel. number:</label><br />
+        <input type="tel" name="tel" /><br />
+        <label for="Birthday">Birthday:</label><br />
+        <input type="date" name="Birthday" /><br />
+        <input type="radio" name="Male" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" name="female" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" name="other" value="other" />
+        <label for="other">Other</label>
+        <h3>Bio</h3>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <h3>Favorite Cuisine</h3>
+        <input type="checkbox" id="cuisine1" name="Cuisine1" value="french" />
+        <label for="cuisine1"> French</label><br />
+        <input type="checkbox" id="cuisine2" name="Cuisine2" value="Spanish" />
+        <label for="cuisine2"> Spanish</label><br />
+        <input type="checkbox" id="cuisine3" name="Cuisine3" value="Italian" />
+        <label for="cuisine3"> Italian</label>
+        <input type="checkbox" id="cuisine4" name="Cuisine4" value="Arab" />
+        <label for="cuisine4"> Arab</label><br />
+        <label for="myfile">Select a file:</label><br />
+        <input type="file" id="myfile" name="myfile" />
+        <label for="homepage">Recipe website:</label>
+        <input type="url" id="homepage" name="homepage" />
+        <div>
+          <label for="favcolor">Select your favorite color:</label>
+          <input type="color" id="favcolor" name="favcolor" value="#fff" />
+        </div>
+        <input type="reset" />
+        <br />
+
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+      <br />
+      <div>
+        <a href="index.html">Go Home</a>
+      </div>
+    </div>
+  </body>
+</html>
